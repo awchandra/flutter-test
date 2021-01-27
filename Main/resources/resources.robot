@@ -4,9 +4,9 @@ Resource               importer.robot
 *** Keywords ***
 Open Android Apps
     Open Application                ${appiumServer}
-    ...                             udid=${udid} #Fill in your UDID
+    ...                             udid=461b1ae10404
     ...                             platformName=${platformName}
-    ...                             deviceName=${udid} #Fill in your UDID
+    ...                             deviceName=461b1ae10404
     ...                             appPackage=${appPackage}
     ...                             appActivity=${appPackageActivity}
     ...                             autoGrantPermissions=${True}
