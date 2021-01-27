@@ -14,3 +14,6 @@ Resource                    ../pageobjects/shrineDetailPage.robot
 Resource                    ../selectors/home.robot
 Resource                    ../selectors/shrine.robot
 Resource                    ../selectors/shrineDetail.robot
+
+###### utils ######
+Resource                    ../utils/generalKeywords.robot

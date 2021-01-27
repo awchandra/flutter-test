@@ -4,12 +4,13 @@ Resource               importer.robot
 *** Keywords ***
 Open Android Apps
     Open Application                ${appiumServer}
-    ...                             udid=${udid}
+    ...                             udid=${udid} #Fill in your UDID
     ...                             platformName=${platformName}
-    ...                             deviceName=${udid}
+    ...                             deviceName=${udid} #Fill in your UDID
     ...                             appPackage=${appPackage}
     ...                             appActivity=${appPackageActivity}
     ...                             autoGrantPermissions=${True}
+    Sleep                           3
     Reset Application
     start screen recording          filename=${TEST NAME}
 
