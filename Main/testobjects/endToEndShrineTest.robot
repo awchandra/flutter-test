@@ -11,12 +11,12 @@ User Able To Fill In Cart And Emptied It Back
     homePage.Home Page Has Opened
     homePage.Click Shrine Gallery
     shrinePage.Click Next Button
-    shrinePageDetail.Click Menu Button
-    shrinePageDetail.Click Clothing Button
-    shrinePageDetail.Choose Walter Henley Item
-    shrinePageDetail.Click Accessories Button
-    shrinePageDetail.Choose Shrug Bag Item
-    shrinePageDetail.Click Cart Button
-    shrinePageDetail.Click Empty Cart Button
+    shrineDetailPage.Click Menu Button
+    shrineDetailPage.Click Clothing Button
+    shrineDetailPage.Choose Walter Henley Item
+    shrineDetailPage.Click Accessories Button
+    shrineDetailPage.Choose Shrug Bag Item
+    shrineDetailPage.Click Cart Button
+    shrineDetailPage.Click Empty Cart Button
 
 

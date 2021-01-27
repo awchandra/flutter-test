@@ -3,7 +3,7 @@ Install appium
 Install flutter gallery apk in your test device
 
 If run this on Windows env:
-1. Fill in udid and deviceName parameter in resources.robot with your udid
+1. Fill in udid and deviceName parameter in data.robot with your udid
 2. Start appium server: 
 
     appium -a 127.0.0.1 --no-reset

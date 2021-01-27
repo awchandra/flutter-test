@@ -3,10 +3,11 @@ Resource               importer.robot
 
 *** Keywords ***
 Open Android Apps
+    [Documentation]                 Fill in udid and deviceName parameter in data.robot with your udid
     Open Application                ${appiumServer}
-    ...                             udid=461b1ae10404
+    ...                             udid=${udid}
     ...                             platformName=${platformName}
-    ...                             deviceName=461b1ae10404
+    ...                             deviceName=${udid}
     ...                             appPackage=${appPackage}
     ...                             appActivity=${appPackageActivity}
     ...                             autoGrantPermissions=${True}

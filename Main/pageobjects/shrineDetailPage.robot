@@ -9,14 +9,16 @@ Click Clothing Button
     Click Element                               ${CLOTHING_BUTTON}
 
 Choose Walter Henley Item
-    Swipe Right to Left                         ${WALTER_HENLEY_ITEM}
+    Wait Until Element Is Visible               ${SEA_TUNIC_ITEM}
+    Repeat Keyword      2x                      Swipe Right to Left                    ${SEA_TUNIC_ITEM}
     Click Element                               ${WALTER_HENLEY_ITEM}
 
 Click Accessories Button
     Click Element                               ${ACCESSORIES_BUTTON}
 
 Choose Shrug Bag Item
-    Swipe Right to Left                         ${SHRUG_BAG_ITEM}
+    Wait Until Element Is Visible               ${STELLA_SUNGLASSES_ITEM}
+    Swipe Right to Left                         ${STELLA_SUNGLASSES_ITEM}
     Click Element                               ${SHRUG_BAG_ITEM}
 
 Click Cart Button
